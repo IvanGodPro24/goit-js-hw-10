@@ -1,6 +1,6 @@
-import errorIcon from './img/error.svg';
-import successIcon from './img/success.svg';
-import warningIcon from './img/warning.svg';
+import errorIcon from '../img/error.svg';
+import successIcon from '../img/success.svg';
+import warningIcon from '../img/warning.svg';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 

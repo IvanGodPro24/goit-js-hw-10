@@ -1,5 +1,5 @@
-import ringIcon from './img/ring.svg';
-import errorIcon from './img/error.svg';
+import ringIcon from '../img/ring.svg';
+import errorIcon from '../img/error.svg';
 import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 import iziToast from 'izitoast';
