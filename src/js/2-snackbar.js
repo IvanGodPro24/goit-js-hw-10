@@ -1,3 +1,6 @@
+import errorIcon from './img/error.svg';
+import successIcon from './img/success.svg';
+import warningIcon from './img/warning.svg';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
@@ -22,7 +25,7 @@ function generatePromise(event) {
   if (delay < 0) {
     iziToast.warning({
       position: 'topRight',
-      iconUrl: './img/warning.svg',
+      iconUrl: warningIcon,
       backgroundColor: '#ffa000',
 
       transitionIn: 'flipInX',
@@ -67,7 +70,7 @@ function generatePromise(event) {
     .then(delay =>
       iziToast.success({
         position: 'topRight',
-        iconUrl: './img/success.svg',
+        iconUrl: successIcon,
         backgroundColor: '#59a10d',
 
         transitionIn: 'flipInX',
@@ -99,7 +102,7 @@ function generatePromise(event) {
     .catch(delay =>
       iziToast.error({
         position: 'topRight',
-        iconUrl: './img/error.svg',
+        iconUrl: errorIcon,
         backgroundColor: '#ef4040',
 
         transitionIn: 'flipInX',

@@ -1,3 +1,5 @@
+import ringIcon from './img/ring.svg';
+import errorIcon from './img/error.svg';
 import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 import iziToast from 'izitoast';
@@ -18,7 +20,7 @@ const options = {
     if (selectedDates[0].getTime() <= Date.now()) {
       iziToast.error({
         position: 'topRight',
-        iconUrl: './img/error.svg',
+        iconUrl: errorIcon,
         backgroundColor: '#ef4040',
 
         transitionIn: 'flipInX',
@@ -95,7 +97,7 @@ function startTimer() {
 
       iziToast.info({
         position: 'topRight',
-        iconUrl: './img/ring.svg',
+        iconUrl: ringIcon,
         backgroundColor: '#09f',
 
         transitionIn: 'flipInX',
