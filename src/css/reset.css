@@ -25,6 +25,11 @@ a {
 
 button {
   cursor: pointer;
+  border: none;
+}
+
+input {
+  outline: none;
 }
 
 img {

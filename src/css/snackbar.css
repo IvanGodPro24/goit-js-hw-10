@@ -1,0 +1,80 @@
+.label-delay {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  margin-bottom: 16px;
+}
+
+.input-delay {
+  min-width: 360px;
+  min-height: 40px;
+
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-delay:hover,
+.state-fieldset:hover {
+  border-color: #000;
+}
+
+.input-delay:focus-within {
+  border-color: #4e75ff;
+}
+
+.state-fieldset {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+
+  margin-bottom: 24px;
+
+  border-radius: 4px;
+  border: 1px solid #808080;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.legend-state {
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.create-btn {
+  min-width: 360px;
+  min-height: 40px;
+  border-radius: 8px;
+  padding: 8px 16px;
+
+  background: #4e75ff;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.create-btn:hover,
+.create-btn:focus {
+  background: #6c8cff;
+}
+
+.close-icon {
+  stroke: #fff;
+}
+
+.close-bnt {
+  background: transparent !important;
+}
