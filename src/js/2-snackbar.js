@@ -22,7 +22,7 @@ function generatePromise(event) {
   if (delay < 0) {
     iziToast.warning({
       position: 'topRight',
-      iconUrl: '../img/warning.svg',
+      iconUrl: './img/warning.svg',
       backgroundColor: '#ffa000',
 
       transitionIn: 'flipInX',
@@ -67,7 +67,7 @@ function generatePromise(event) {
     .then(delay =>
       iziToast.success({
         position: 'topRight',
-        iconUrl: '../img/success.svg',
+        iconUrl: './img/success.svg',
         backgroundColor: '#59a10d',
 
         transitionIn: 'flipInX',
@@ -99,7 +99,7 @@ function generatePromise(event) {
     .catch(delay =>
       iziToast.error({
         position: 'topRight',
-        iconUrl: '../img/error.svg',
+        iconUrl: './img/error.svg',
         backgroundColor: '#ef4040',
 
         transitionIn: 'flipInX',

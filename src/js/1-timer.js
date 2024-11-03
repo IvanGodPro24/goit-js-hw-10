@@ -18,7 +18,7 @@ const options = {
     if (selectedDates[0].getTime() <= Date.now()) {
       iziToast.error({
         position: 'topRight',
-        iconUrl: '../img/error.svg',
+        iconUrl: './img/error.svg',
         backgroundColor: '#ef4040',
 
         transitionIn: 'flipInX',
@@ -95,7 +95,7 @@ function startTimer() {
 
       iziToast.info({
         position: 'topRight',
-        iconUrl: '../img/ring.svg',
+        iconUrl: './img/ring.svg',
         backgroundColor: '#09f',
 
         transitionIn: 'flipInX',
