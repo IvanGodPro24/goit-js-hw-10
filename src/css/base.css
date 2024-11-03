@@ -35,6 +35,6 @@ main:has(.back-link) {
   text-align: center;
 }
 
-.none {
+main a {
   display: none;
 }
