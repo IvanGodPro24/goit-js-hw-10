@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snackbar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/goit-js-hw-10/2-snackbar.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/styles-Bq4lhOLR.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-BbbuE1sJ.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-C7na5tj-.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-CZjNVMTf.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="back-link" href="./index.html">Go back</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {=$highlight-act}" href="./1-timer.html">Timer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./2-snackbar.html">Snackbar</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <main>
+      <div class="container timer-container">
+        <form class="form">
+          <label class="label-delay">
+            Delay (ms)
+            <input type="number" name="delay" class="input-delay" required />
+          </label>
+
+          <fieldset class="state-fieldset">
+            <legend class="legend-state">State</legend>
+            <label class="label-state">
+              <input
+                type="radio"
+                name="state"
+                value="fulfilled"
+                class="input-radio"
+                required
+              />
+              Fulfilled
+            </label>
+            <label class="label-state">
+              <input
+                type="radio"
+                name="state"
+                value="rejected"
+                class="input-radio"
+                required
+              />
+              Rejected
+            </label>
+          </fieldset>
+
+          <button type="submit" class="create-btn">Create notification</button>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+    <p class="footer-desc">
+      Made with ✨ by
+      <a
+        class="footer-link"
+        href="https://github.com/IvanGodPro24"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        IvanGodPro24
+      </a>
+    </p>
+  </div>
+</footer>
+
+
+  </body>
+</html>
